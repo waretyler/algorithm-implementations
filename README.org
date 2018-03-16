@@ -9,3 +9,7 @@
   the algorithms in python - if I can't I'll use rust. Those choices
   are somewhat arbitrary (mostly they are languages I think there 
   is benefit in me knowing).
+
+* Format
+  I'm using the amazing [[https://orgmode.org/][org-mode]] for emacs. If you haven't seen how
+  awesome it is go [[https://youtu.be/SzA2YODtgK4][watch this]].
