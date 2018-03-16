@@ -1,0 +1,11 @@
+#+TITLE: Learning blog: Algorithms
+
+* About
+  Producing something helps me learn, so I'm creating this "learning blog"
+  essentially a collection of documents ("posts") that explain topics
+  pertaining to this subject. In this case I'm looking at algorithms.
+  Originally I had planned to implement them in multiple languages, but
+  have since decided that that is a /bad/ idea. I'll implement 
+  the algorithms in python - if I can't I'll use rust. Those choices
+  are somewhat arbitrary (mostly they are languages I think there 
+  is benefit in me knowing).
