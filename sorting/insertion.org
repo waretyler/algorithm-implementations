@@ -2,7 +2,7 @@
 
 * About 
   This sorting algorithm sorts a list in place. The basic idea
-  is that if we have a list of elements $a$ we can sort that list
+  is that if we have a list of elements we can sort that list
   by considering one element of the list at a time and comparing it 
   to all the elements before it. If our element is
   less than any of the elements before it then we move it before them
@@ -39,7 +39,7 @@
 
 
 * Verifying it
-  #+BEGIN_SRC python :session insertion-sort 
+  #+BEGIN_SRC python :session insertion-sort :exports both
     a = [100, -89, 10000, 0, 2, 100]
     output = "Before sort " + str(a)
     insertSort(a)
@@ -51,6 +51,22 @@
   #+RESULTS:
   : Before sort [100, -89, 10000, 0, 2, 100]
   : After sort [-89, 0, 2, 100, 100, 10000]
+
+  #+BEGIN_SRC python :session insertion-sort :results org 
+    a = [100, -89, 10000, 0, 2, 100]
+    output = "Before sort " + str(a)
+    insertSort(a)
+    output += "\nAfter sort " + str(a)
+
+    output
+  #+END_SRC
+
+  #+RESULTS:
+  #+BEGIN_SRC org
+  Before sort [100, -89, 10000, 0, 2, 100]
+  After sort [-89, 0, 2, 100, 100, 10000]
+  #+END_SRC
+
 
 
 
