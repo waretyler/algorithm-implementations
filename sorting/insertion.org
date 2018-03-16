@@ -51,28 +51,3 @@
   #+RESULTS:
   : Before sort [100, -89, 10000, 0, 2, 100]
   : After sort [-89, 0, 2, 100, 100, 10000]
-
-  #+BEGIN_SRC python :session insertion-sort :results org 
-    a = [100, -89, 10000, 0, 2, 100]
-    output = "Before sort " + str(a)
-    insertSort(a)
-    output += "\nAfter sort " + str(a)
-
-    output
-  #+END_SRC
-
-  #+RESULTS:
-  #+BEGIN_SRC org
-  Before sort [100, -89, 10000, 0, 2, 100]
-  After sort [-89, 0, 2, 100, 100, 10000]
-  #+END_SRC
-
-
-
-
-
-  
-  
-  
-  
-  
